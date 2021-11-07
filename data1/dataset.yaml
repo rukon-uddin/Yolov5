@@ -1,0 +1,14 @@
+train: D:/yolov5/yolov5m/data/train.txt
+val: D:/yolov5/yolov5m/data/val.txt
+
+# number of classes
+nc: 21
+
+# class names
+names: [ 'ambulance', 'auto rickshaw', 'bicycle', 'bus',
+         'car', 'garbagevan', 'human hauler', 'minibus',
+         'minivan', 'motorbike', 'pickup', 'army vehicle',
+         'policecar', 'rickshaw', 'scooter', 'suv', 'taxi',
+         'three wheelers (cng)', 'truck', 'van', 'wheelbarrow'
+       ]
+
